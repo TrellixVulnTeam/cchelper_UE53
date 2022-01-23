@@ -39,7 +39,7 @@ const wstring CHROME = L"C:\\Program Files\\Google\\Chrome\\Application\\chrome.
 bool deleteDir(wstring csDeleteFolderPath_i)
 {
 	// Making the directory name double null terminated
-	int nFolderPathLen = csDeleteFolderPath_i.length();
+	size_t nFolderPathLen = csDeleteFolderPath_i.length();
 	TCHAR* pszFrom = new TCHAR[nFolderPathLen + 2];
 	wcscpy_s(pszFrom, nFolderPathLen + 2, csDeleteFolderPath_i.c_str());
 	pszFrom[nFolderPathLen] = 0;
