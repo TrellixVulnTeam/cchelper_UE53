@@ -3,7 +3,7 @@
 </a>
 
 # CCHelper
-> Small Windows program to clean and set up student computers of the Casagrande-Cesi institute (Terni, Italy)
+> Small Windows program to clean and set up the student computers of the Casagrande-Cesi institute (Terni, Italy)
 
 [![C++](https://img.shields.io/badge/Visual%20C++-2019+-blue.svg)](https://www.python.org)
 [![License](https://img.shields.io/github/license/pbswengineering/cchelper.svg)](https://opensource.org/licenses/AGPL-3.0)
@@ -21,7 +21,7 @@ Because my current main job is teaching. :-)
 
 ## Usage
 
-Copy `Install.bat`, `Uninstall.bat` and `Release/CCHelper.exe` on a USB dongle (you need to create a Release folder and put `CCHelper.exe` into it), then go through the computers and run `Install.bat`.
+Copy `Install.bat`, `Uninstall.bat`, `python` and `Release\CCHelper.exe` on a USB dongle (you need to create a Release folder and put `CCHelper.exe` into it), then go through the computers and run `Install.bat`.
 
 Once installed, CCHelper will run automatically at user's login (it doesn't install itself globally, therefore it doesn't require administrative privileges).
 
