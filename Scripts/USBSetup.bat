@@ -10,6 +10,7 @@ if "%usbDrive%" == "" (
     copy Uninstall.bat %usbDrive%
     mkdir %usbDrive%\Release
     copy ..\x64\Release\CCHelper.exe %usbDrive%\Release
+    copy *.dll %usbDrive%\Release
     rd /s /q %usbDrive%\python
     robocopy python %usbDrive%\python /S /NFL /NDL
     echo That's all, folks!
